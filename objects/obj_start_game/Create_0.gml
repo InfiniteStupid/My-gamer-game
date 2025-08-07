@@ -5,9 +5,9 @@ global.second_damage = 1.25;
 
 global.gun_cooldown = 60
 
-global.guns = ["flintlock", "Gun"]
-global.gun_cooldowns = ["flintlock", 60, "Gun", 10]
-global.gun_damages = ["flintlock", 1, "Gun", 0.4]
+global.guns = ["flintlock", "Gun", "revolver"]
+global.gun_cooldowns = ["flintlock", 100, "Gun", 8, "revolver", 50]
+global.gun_damages = ["flintlock", 2.5, "Gun", 0.2, "revolver", 1.25]
 
 global.gui_move = false
 

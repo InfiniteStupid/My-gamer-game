@@ -62,3 +62,12 @@ if (keyboard_check_pressed(ord("F"))) {
 if (keyboard_check_pressed(ord("2"))) {
     create_dialogue_choice(global.enter_tav, 2, "yes", "no")
 }
+
+if (mouse_check_button(mb_left)) {
+    if (alarm[1] < 0) {
+        instance_create_depth(x, y, depth, obj_bullet)
+        global.alarmy = 0
+        alarm[1] = global.gun_cooldown
+        alarm[2] = 1
+    }
+}

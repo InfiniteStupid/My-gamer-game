@@ -1,5 +1,5 @@
 if (!attacking) {
-if (instance_exists(obj_player) && (distance_to_object(obj_player) < 300))
+if (instance_exists(obj_player) && (distance_to_object(obj_player) < 75))
 { 
     target_x = obj_player.x
     target_y = obj_player.y

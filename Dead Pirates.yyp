@@ -96,6 +96,7 @@
     {"id":{"name":"spr_aim_place","path":"sprites/spr_aim_place/spr_aim_place.yy",},},
     {"id":{"name":"spr_back","path":"sprites/spr_back/spr_back.yy",},},
     {"id":{"name":"spr_back2","path":"sprites/spr_back2/spr_back2.yy",},},
+    {"id":{"name":"spr_box_2","path":"sprites/spr_box_2/spr_box_2.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
     {"id":{"name":"spr_bridge_block","path":"sprites/spr_bridge_block/spr_bridge_block.yy",},},
     {"id":{"name":"spr_bullet_flintlock","path":"sprites/spr_bullet_flintlock/spr_bullet_flintlock.yy",},},

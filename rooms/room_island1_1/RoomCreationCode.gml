@@ -32,7 +32,8 @@ repeat (array_count_value(global.island1_1_data.enemies_1_1, "slime")) {
     } until (
         collision_point(mock_x, mock_y, global.tilemap2, true, true) &&
         !collision_point(mock_x, mock_y, global.tilemap, true, true) &&
-        !collision_point(mock_x, mock_y, obj_collidable_parent, true, true)
+        !collision_point(mock_x, mock_y, obj_collidable_parent, true, true) &&
+        distance_to_object(obj_enemy_slime) > 50
     )
         
     instance_create_depth(mock_x, mock_y, 0, obj_enemy_slime)

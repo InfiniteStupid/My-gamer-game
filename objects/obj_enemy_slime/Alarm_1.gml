@@ -2,7 +2,7 @@ if (instance_exists(obj_dialogue)) {
     alarm[1] = 120
 }
 
-if (instance_exists(obj_player) && (distance_to_object(obj_player) < 300)){
+if (instance_exists(obj_player) && (distance_to_object(obj_player) < 125)){
     direction = point_direction(x, y, obj_player.x, obj_player.y)
     move_type = "none"
     playerx = obj_player.x
