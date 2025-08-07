@@ -3,10 +3,6 @@ if (instance_exists(obj_dialogue)) exit;
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"))
 
-if (keyboard_check(ord("T"))) { //!!! testing
-    instance_create_depth(x, y, y, obj_option )
-}
-
 move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, obj_collidable_parent, obj_npc_parent], undefined, undefined, undefined, move_speed, move_speed)
 
 if (!_hor != 0 or _ver != 0) { //!!!Replace all of these with walking sprites

@@ -16,14 +16,23 @@ function save_game()
         gun_cooldown: global.gun_cooldown,
         
         _island1: {
-
-        room1enteries: global.room1enteries,
-
         island1_1: {
-        enemies: global.island1_1_data.enemies_1_1 ,
+        enemies: global.island1_1_data.enemies_1_1,
+        room1entries: global.room1enteries
         }
         }
     }
+    /*
+___________________________________________
+############################################################################################
+ERROR in action number 1
+of Other Event: Room End for object obj_save:
+global variable name 'island1_1_data' index (100044) not set before reading it.
+ at gml_Script_save_game (line 20) -         enemies: global.island1_1_data.enemies_1_1,
+############################################################################################
+gml_Script_save_game (line 20)
+gml_Object_obj_save_Other_5 (line 1) - save_game()
+*/
     
     //array_push(_a, _data)
     
@@ -72,7 +81,7 @@ function load_game()
         global.gun_cooldown = _d.gun_cooldown
         
         global.island1_1_data.enemies_1_1 = _d._island1.island1_1.enemies
-        global.room1enteries = _d.island1.room1enteries
+        global.room1enteries = _d._island1.island1_1.room1entries
         
         next_room_no_prev(_d.current_room)
         

@@ -8,13 +8,11 @@ if (global.prev_room = room_island1_2) {
     obj_player.y = 1232
 }
 
-
 if (global.room1enteries == false) {
    
-     global.island1_1_data = {
-    enemies_1_1: ["slime","slime","slime","slime","slime","slime",]
-    
-}
+    global.island1_1_data = {
+        enemies_1_1: ["slime","slime","slime","slime","slime","slime",],
+    }
     
 global.room1enteries = true    
     

@@ -105,6 +105,7 @@
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_flintlock_graphic","path":"sprites/spr_flintlock_graphic/spr_flintlock_graphic.yy",},},
     {"id":{"name":"spr_gui_collision","path":"sprites/spr_gui_collision/spr_gui_collision.yy",},},
+    {"id":{"name":"spr_gun_graphic","path":"sprites/spr_gun_graphic/spr_gun_graphic.yy",},},
     {"id":{"name":"spr_lamppost","path":"sprites/spr_lamppost/spr_lamppost.yy",},},
     {"id":{"name":"spr_load_save","path":"sprites/spr_load_save/spr_load_save.yy",},},
     {"id":{"name":"spr_mouse","path":"sprites/spr_mouse/spr_mouse.yy",},},

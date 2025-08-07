@@ -1,1 +1,1 @@
-next_room(room_island1_2) //!!!Change to room.saves
+next_room(room_island1_1) //!!!Change to room.saves

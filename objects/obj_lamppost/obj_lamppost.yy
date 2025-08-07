@@ -1,15 +1,14 @@
 {
   "$GMObject":"",
   "%Name":"obj_lamppost",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_lamppost",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_collidable_parent","path":"objects/obj_collidable_parent/obj_collidable_parent.yy",},"propertyId":{"name":"offset2","path":"objects/obj_collidable_parent/obj_collidable_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-19",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_collidable_parent","path":"objects/obj_collidable_parent/obj_collidable_parent.yy",},"propertyId":{"name":"offset","path":"objects/obj_collidable_parent/obj_collidable_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"63",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_collidable_parent","path":"objects/obj_collidable_parent/obj_collidable_parent.yy",},"propertyId":{"name":"size1","path":"objects/obj_collidable_parent/obj_collidable_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_collidable_parent","path":"objects/obj_collidable_parent/obj_collidable_parent.yy",},"propertyId":{"name":"size2","path":"objects/obj_collidable_parent/obj_collidable_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Collidable",
     "path":"folders/Objects/Collidable.yy",
